@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3CB16-D9D4-42D4-80DC-7C29E3C5D129}|EntityLayer\\EntityLayer.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthapp\\entitylayer\\concrete\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3CB16-D9D4-42D4-80DC-7C29E3C5D129}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3CB16-D9D4-42D4-80DC-7C29E3C5D129}|EntityLayer\\EntityLayer.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthapp\\entitylayer\\concrete\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3CB16-D9D4-42D4-80DC-7C29E3C5D129}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A3CB16-D9D4-42D4-80DC-7C29E3C5D129}|EntityLayer\\EntityLayer.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthapp\\entitylayer\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A3CB16-D9D4-42D4-80DC-7C29E3C5D129}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordReset.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\Concrete\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\PasswordReset.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\Concrete\\PasswordReset.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\PasswordReset.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T09:54:20.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\Concrete\\UserSession.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\UserSession.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\Concrete\\UserSession.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\UserSession.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T09:53:53.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\Concrete\\User.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\User.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T09:53:28.194Z",
+              "EditorCaption": ""
             }
           ]
         }
