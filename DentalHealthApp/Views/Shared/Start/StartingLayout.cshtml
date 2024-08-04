@@ -4,21 +4,13 @@
 }
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Purple Admin</title>
+    <title>Hoş Geldiniz!</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="~/tema/assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="~/tema/assets/vendors/css/vendor.bundle.base.css">
-    <!-- endinject -->
-    <!-- Plugin css for this page -->
-    <!-- End plugin css for this page -->
-    <!-- inject:css -->
-    <!-- endinject -->
-    <!-- Layout styles -->
     <link rel="stylesheet" href="~/tema/assets/css/style.css">
-    <!-- End layout styles -->
     <link rel="shortcut icon" href="~/tema/assets/images/favicon.ico" />
 </head>
 
@@ -26,8 +18,8 @@
     <div class="container-scroller mb-5">
         <nav class="navbar navbar-expand-lg default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a class="navbar-brand brand-logo" href="../../index.html"><img src="~/tema/assets/images/logo.svg" alt="logo" /></a>
-                <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="~/tema/assets/images/logo-mini.svg" alt="logo" /></a>
+                <a class="navbar-brand brand-logo" href="/Home/Index/"><img src="~/tema/assets/images/logo.svg" alt="logo" /></a>
+                <a class="navbar-brand brand-logo-mini" href="/Home/Index/"><img src="~/tema/assets/images/logo-mini.svg" alt="logo" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="mdi mdi-menu"></span>
@@ -35,23 +27,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="/login" class="nav-link btn btn-primary mr-2">Giriş Yap</a>
+                        <a href="/Login/Index/" class="nav-link btn btn-primary mr-2">Giriş Yap</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/register" class="nav-link btn btn-primary mr-2">Kayıt Ol</a>
+                        <a href="/Register/Index/" class="nav-link btn btn-primary mr-2">Kayıt Ol</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </div> <br /><br />
+    </div>
     @RenderBody()
     
 
     <script src="~/tema/assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
     <script src="~/tema/assets/js/off-canvas.js"></script>
     <script src="~/tema/assets/js/hoverable-collapse.js"></script>
     <script src="~/tema/assets/js/misc.js"></script>
