@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{364CFDC1-4A55-42A6-9633-0984EB9FAC61}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthapp\\dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{364CFDC1-4A55-42A6-9633-0984EB9FAC61}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{364CFDC1-4A55-42A6-9633-0984EB9FAC61}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthapp\\dataaccesslayer\\migrations\\20240804100347_mig_tables_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364CFDC1-4A55-42A6-9633-0984EB9FAC61}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20240804100347_mig_tables_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77A3CB16-D9D4-42D4-80DC-7C29E3C5D129}|EntityLayer\\EntityLayer.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthapp\\entitylayer\\concrete\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,14 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DataAccessLayer\\Concrete\\Context.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Concrete\\Context.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DataAccessLayer\\Concrete\\Context.cs",
-              "RelativeToolTip": "DataAccessLayer\\Concrete\\Context.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAABAAAAA",
+              "Title": "20240804100347_mig_tables_created.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DataAccessLayer\\Migrations\\20240804100347_mig_tables_created.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240804100347_mig_tables_created.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DataAccessLayer\\Migrations\\20240804100347_mig_tables_created.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240804100347_mig_tables_created.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T10:00:29.465Z",
+              "WhenOpened": "2024-08-04T10:03:48.597Z",
               "EditorCaption": ""
             },
             {
