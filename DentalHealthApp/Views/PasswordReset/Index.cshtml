@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Start/StartingLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div class="container">
+        <h2>Şifre Yenileme Sayfasına Hoş Geldiniz</h2>
+        <p><i>Hesabını bulabilmemiz için lütfen mail adresini gir.</i></p>
+        <form asp-action="Index" method="post" onsubmit="return validateEmail()">
+            <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Mail Adresi" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Doğrula</button>
+        </form>
+        @if (!ViewData.ModelState.IsValid)
+        {
+            var errors = ViewData.ModelState.Values.SelectMany(v => v.Errors);
+            foreach (var error in errors)
+            {
+                <div class="alert alert-danger">
+                    @error.ErrorMessage
+                </div>
+            }
+        }
+    </div>
+
+    <script>
+        function validateEmail() {
+            var email = document.querySelector('input[name="email"]').value;
+            if (!email) {
+                alert('Mail adresi alanı zorunludur.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
