@@ -1,4 +1,5 @@
-﻿
+﻿@model EntityLayer.Concrete.User
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/Start/StartingLayout.cshtml";
@@ -10,19 +11,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Purple Admin</title>
+    <title>Kayıt Ol</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/tema/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/tema/assets/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
-    <!-- Plugin css for this page -->
-    <!-- End plugin css for this page -->
     <!-- inject:css -->
+    <link rel="stylesheet" href="~/tema/assets/css/style.css">
     <!-- endinject -->
-    <!-- Layout styles -->
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <!-- End layout styles -->
-    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="~/tema/assets/images/favicon.ico" />
 </head>
 <body>
     <div class="container-scroller">
@@ -32,42 +29,49 @@
                     <div class="col-lg-4 mx-auto">
                         <div class="auth-form-light text-left p-5">
                             <div class="brand-logo">
-                                <img src="../../assets/images/logo.svg">
+                                <h2>Ağız ve Diş Takip Uygulaması</h2>
                             </div>
-                            <h4>New here?</h4>
-                            <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
-                            <form class="pt-3">
+                            <h4>Yeni misiniz?</h4>
+                            <h6 class="font-weight-light">Kayıt olmak çok kolay, aşağıdaki bilgileri eksiksiz doldur ve uygulamayı keşfetemye başla!</h6>
+
+                            @if (ViewData.ModelState.Values.Any(v => v.Errors.Count > 0))
+                            {
+                                <div class="alert alert-danger">
+                                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <div>@error.ErrorMessage</div>
+                                    }
+                                </div>
+                            }
+
+                            <form class="pt-3" asp-action="Index" asp-controller="Register" method="post">
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Username">
+                                    <input asp-for="UserFullName" type="text" class="form-control form-control-lg" placeholder="Ad Soyad">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email">
+                                    <input asp-for="UserEmail" type="email" class="form-control form-control-lg" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <select class="form-control form-control-lg" id="exampleFormControlSelect2">
-                                        <option>Country</option>
-                                        <option>United States of America</option>
-                                        <option>United Kingdom</option>
-                                        <option>India</option>
-                                        <option>Germany</option>
-                                        <option>Argentina</option>
-                                    </select>
+                                    <input asp-for="UserBirthDate" type="date" class="form-control form-control-lg" placeholder="Doğum Tarihi">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                                    <input type="password" name="password" class="form-control form-control-lg" placeholder="Şifre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="confirmPassword" class="form-control form-control-lg" placeholder="Şifre Tekrar">
                                 </div>
                                 <div class="mb-4">
                                     <div class="form-check">
                                         <label class="form-check-label text-muted">
-                                            <input type="checkbox" class="form-check-input"> I agree to all Terms & Conditions
+                                            <input type="checkbox" class="form-check-input" required> Tüm Şartlar ve Koşulları kabul ediyorum
                                         </label>
                                     </div>
                                 </div>
                                 <div class="mt-3">
-                                    <a class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN UP</a>
+                                    <button type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn">KAYIT OL</button>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
-                                    Already have an account? <a href="login.html" class="text-primary">Login</a>
+                                    Zaten hesabınız var mı? <a href="login.html" class="text-primary">Giriş Yap</a>
                                 </div>
                             </form>
                         </div>
@@ -80,14 +84,12 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="~/tema/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="../../assets/js/off-canvas.js"></script>
-    <script src="../../assets/js/hoverable-collapse.js"></script>
-    <script src="../../assets/js/misc.js"></script>
+    <script src="~/tema/assets/js/off-canvas.js"></script>
+    <script src="~/tema/assets/js/hoverable-collapse.js"></script>
+    <script src="~/tema/assets/js/misc.js"></script>
     <!-- endinject -->
 </body>
 </html>
