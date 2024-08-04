@@ -245,6 +245,614 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\.gitignore",
+      "PackagePath": "staticwebassets\\tema\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\tema\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\LICENSE",
+      "PackagePath": "staticwebassets\\tema"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\PSD\\Purple_dashboard_free.psd",
+      "PackagePath": "staticwebassets\\tema\\PSD\\Purple_dashboard_free.psd"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\README.md",
+      "PackagePath": "staticwebassets\\tema\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\tema\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\tema\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "PackagePath": "staticwebassets\\tema\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\dashboard\\circle.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\dashboard\\circle.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\dashboard\\circle.svg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\dashboard\\circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\dashboard\\img_1.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\dashboard\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\dashboard\\img_2.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\dashboard\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\dashboard\\img_3.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\dashboard\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\dashboard\\img_4.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces-clipart\\pic-1.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces-clipart\\pic-2.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces-clipart\\pic-3.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces-clipart\\pic-4.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\sprites\\blue.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\sprites\\blue.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\sprites\\dark.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\sprites\\dark.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\sprites\\flag.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\sprites\\flag.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\sprites\\green.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\sprites\\green.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\sprites\\jsgrid-icons.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\sprites\\jsgrid-icons.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\sprites\\red.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\sprites\\red.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\images\\sprites\\yellow.png",
+      "PackagePath": "staticwebassets\\tema\\assets\\images\\sprites\\yellow.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\misc.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\misc.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\todo.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\todo.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\js\\todolist.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\_widget-grid.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\_widget-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_preview.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_preview.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\components\\_todo-list.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\components\\_todo-list.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_background.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_popovers.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_text.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\mixins\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\mixins\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\tema\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\tema\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\gulp-tasks\\inject.js",
+      "PackagePath": "staticwebassets\\tema\\gulp-tasks\\inject.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\gulp-tasks\\serve.js",
+      "PackagePath": "staticwebassets\\tema\\gulp-tasks\\serve.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\gulp-tasks\\vendors.js",
+      "PackagePath": "staticwebassets\\tema\\gulp-tasks\\vendors.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\gulpfile.js",
+      "PackagePath": "staticwebassets\\tema\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\index.html",
+      "PackagePath": "staticwebassets\\tema\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\package.json",
+      "PackagePath": "staticwebassets\\tema\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\samples\\blank-page.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\samples\\blank-page.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\samples\\error-404.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\samples\\error-404.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\samples\\error-500.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\samples\\error-500.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\tema\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\tema\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\tema\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\tema\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DentalHealthApp\\wwwroot\\tema\\screenshot.jpg",
+      "PackagePath": "staticwebassets\\tema\\screenshot.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DentalHealthApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
