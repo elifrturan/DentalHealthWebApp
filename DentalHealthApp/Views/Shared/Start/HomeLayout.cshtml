@@ -1,0 +1,34 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hoş Geldiniz!</title>
+    <link rel="stylesheet" href="~/tema/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/tema/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/tema/assets/css/style.css">
+    <link rel="shortcut icon" href="~/tema/assets/images/favicon.ico" />
+</head>
+<body>
+    <div class="container-scroller">
+        @await Html.PartialAsync("~/Views/Home/NavbarPartial.cshtml")
+        <div class="container-fluid page-body-wrapper">
+            @await Html.PartialAsync("~/Views/Home/SidebarPartial.cshtml")
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    @RenderBody()
+                </div>
+                @await Html.PartialAsync("~/Views/Home/FooterPartial.cshtml")
+            </div>
+        </div>
+    </div>
+    <script src="~/tema/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="~/tema/assets/js/off-canvas.js"></script>
+    <script src="~/tema/assets/js/hoverable-collapse.js"></script>
+    <script src="~/tema/assets/js/misc.js"></script>
+</body>
+</html>

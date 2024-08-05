@@ -33,6 +33,11 @@ namespace BusinessLayer.Concrete
             return _healthrecordDal.GetAll();
         }
 
+        public Task<List<HealthRecord>> GetHealthRecordsForLast7DaysAsync(int userId)
+        {
+            return _healthrecordDal.GetHealthRecordsForLast7DaysAsync(userId);
+        }
+
         public void Update(HealthRecord entity)
         {
             _healthrecordDal.Update(entity);

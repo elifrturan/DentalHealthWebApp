@@ -9,5 +9,7 @@ namespace DataAccessLayer.Abstract
 {
     public interface IRecommendationDal : IGenericDal<Recommendation>
     {
+        Task<Recommendation> GetRandomRecommendationAsync();
+
     }
 }

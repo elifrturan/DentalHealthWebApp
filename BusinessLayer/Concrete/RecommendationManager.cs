@@ -33,6 +33,11 @@ namespace BusinessLayer.Concrete
             return _recommendationDal.GetAll();
         }
 
+        public Task<Recommendation> GetRandomRecommendationAsync()
+        {
+            return _recommendationDal.GetRandomRecommendationAsync();
+        }
+
         public void Update(Recommendation entity)
         {
             _recommendationDal.Update(entity);

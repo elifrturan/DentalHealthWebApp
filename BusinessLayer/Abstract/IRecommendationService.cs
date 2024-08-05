@@ -9,5 +9,6 @@ namespace BusinessLayer.Abstract
 {
     public interface IRecommendationService : IGenericService<Recommendation>
     {
+        Task<Recommendation> GetRandomRecommendationAsync();
     }
 }

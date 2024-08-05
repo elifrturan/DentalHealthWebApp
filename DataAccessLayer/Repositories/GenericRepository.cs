@@ -11,6 +11,12 @@ namespace DataAccessLayer.Repositories
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         Context context = new Context();
+
+        public GenericRepository(Context context)
+        {
+            this.context = context;
+        }
+
         public void Delete(T t)
         {
             context.Remove(t);

@@ -9,5 +9,6 @@ namespace BusinessLayer.Abstract
 {
     public interface IHealthRecordService : IGenericService<HealthRecord>
     {
+        Task<List<HealthRecord>> GetHealthRecordsForLast7DaysAsync(int userId);
     }
 }

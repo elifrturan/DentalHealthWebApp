@@ -245,6 +245,22 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\pictures\\1.jpg",
+      "PackagePath": "staticwebassets\\pictures\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\pictures\\2.jpg",
+      "PackagePath": "staticwebassets\\pictures\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\pictures\\3.jpg",
+      "PackagePath": "staticwebassets\\pictures\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\pictures\\4.jpg",
+      "PackagePath": "staticwebassets\\pictures\\4.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\tema\\.gitignore",
       "PackagePath": "staticwebassets\\tema\\.gitignore"
     },

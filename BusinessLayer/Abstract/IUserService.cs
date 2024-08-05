@@ -9,5 +9,6 @@ namespace BusinessLayer.Abstract
 {
     public interface IUserService : IGenericService<User>
     {
+        Task<User> GetByEmailAsync(string email);
     }
 }

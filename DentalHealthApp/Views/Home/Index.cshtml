@@ -1,8 +1,80 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model DentalHealthApp.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Start/HomeLayout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="container">
+    <div>
+        <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-home"></i>
+            </span> Giriş
+        </h3>
+    </div>
+    <br />
+
+    <h1>Hoş Geldiniz, @Model.UserName!</h1>
+    <br />
+
+    <h4>Son 7 Gün İçindeki Verileriniz</h4><hr/>
+    @if (Model.LastWeekHealthRecords == null || !Model.LastWeekHealthRecords.Any())
+    {
+        <p>Son 7 gün içerisinde hiç veri kaydetmediniz.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Tarih</th>
+                    <th>Açıklama</th>
+                    <th>Görsel</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var record in Model.LastWeekHealthRecords)
+                {
+                    <tr>
+                        <td>@record.RecordDate.ToString("dd/MM/yyyy")</td>
+                        <td>@record.RecordDescription</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(record.RecordImage))
+                            {
+                                <img src="@Url.Content(record.RecordImage)" alt="Record Image" style="width: 50px; height: 50px;" />
+                            }
+                            else
+                            {
+                                <span>Görsel Yok</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    
+    <hr />
+    <br />
+    <div>
+        <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-heart-pulse"></i>
+            </span> Tavsiye <i class="mdi mdi-emoticon-happy"></i>
+        </h3>
+    </div>
+    <br />
+
+    <div class="border border-primary p-2 rounded">
+        <div class="d-flex flex-column p-2">
+            <div>
+                <h4 class="font-weight-normal p-3 bg-opacity-10">@Model.RandomRecommendation.RecommendationText <i class="mdi mdi-emoticon-happy"></i> </h4>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
 </div>

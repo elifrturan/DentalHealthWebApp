@@ -9,5 +9,6 @@ namespace DataAccessLayer.Abstract
 {
     public interface IHealthRecordDal : IGenericDal<HealthRecord>
     {
+        Task<List<HealthRecord>> GetHealthRecordsForLast7DaysAsync(int userId);
     }
 }
