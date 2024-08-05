@@ -119,6 +119,26 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("PasswordResets");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concrete.Recommendation", b =>
+                {
+                    b.Property<int>("RecommendationID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RecommendationID"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RecommendationText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RecommendationID");
+
+                    b.ToTable("Recommendations");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.User", b =>
                 {
                     b.Property<int>("UserID")
@@ -151,6 +171,32 @@ namespace DataAccessLayer.Migrations
                     b.HasKey("UserID");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.UserRecommendation", b =>
+                {
+                    b.Property<int>("UserRecommendationID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserRecommendationID"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("RecommendationID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserRecommendationID");
+
+                    b.HasIndex("RecommendationID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("UserRecommendations");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.UserSession", b =>
@@ -213,6 +259,25 @@ namespace DataAccessLayer.Migrations
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.UserRecommendation", b =>
+                {
+                    b.HasOne("EntityLayer.Concrete.Recommendation", "Recommendation")
+                        .WithMany()
+                        .HasForeignKey("RecommendationID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EntityLayer.Concrete.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Recommendation");
 
                     b.Navigation("User");
                 });

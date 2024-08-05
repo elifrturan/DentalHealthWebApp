@@ -19,6 +19,12 @@ builder.Services.AddScoped<IPasswordResetDal, EfPasswordResetRepository>();
 builder.Services.AddScoped<IPasswordResetService, PasswordResetManager>();
 builder.Services.AddScoped<IHealthGoalDal, EfHealthGoalRepository>();
 builder.Services.AddScoped<IHealthGoalService, HealthGoalManager>();
+builder.Services.AddScoped<IHealthRecordDal, EFHealthRecordRepository>();
+builder.Services.AddScoped<IHealthRecordService, HealthRecordManager>();
+builder.Services.AddScoped<IRecommendationDal, EfRecommendationRepository>();
+builder.Services.AddScoped<IRecommendationService, RecommendationManager>();
+builder.Services.AddScoped<IUserRecommendationDal, EfUserRecommendationRepository>();
+builder.Services.AddScoped<IUserRecommendationService, UserRecommendationManager>();
 
 builder.Services.AddDbContext<Context>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
