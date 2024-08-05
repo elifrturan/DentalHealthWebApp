@@ -32,5 +32,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<UserSession> UserSessions { get; set; }
         public DbSet<PasswordReset> PasswordResets { get; set; }
         public DbSet<HealthGoal> HealthGoals { get; set; }
+        public DbSet<HealthRecord> HealthRecords { get; set; }
+
     }
 }

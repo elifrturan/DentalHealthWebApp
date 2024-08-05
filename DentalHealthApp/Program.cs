@@ -17,6 +17,8 @@ builder.Services.AddScoped<IUserSessionDal, EfUserSessionRepository>();
 builder.Services.AddScoped<IUserSessionService, UserSessionManager>();
 builder.Services.AddScoped<IPasswordResetDal, EfPasswordResetRepository>();
 builder.Services.AddScoped<IPasswordResetService, PasswordResetManager>();
+builder.Services.AddScoped<IHealthGoalDal, EfHealthGoalRepository>();
+builder.Services.AddScoped<IHealthGoalService, HealthGoalManager>();
 
 builder.Services.AddDbContext<Context>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
