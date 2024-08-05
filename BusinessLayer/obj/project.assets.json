@@ -2899,11 +2899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2921,11 +2921,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

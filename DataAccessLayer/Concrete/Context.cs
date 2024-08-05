@@ -31,5 +31,6 @@ namespace DataAccessLayer.Concrete
         public DbSet<User> Users { get; set; }
         public DbSet<UserSession> UserSessions { get; set; }
         public DbSet<PasswordReset> PasswordResets { get; set; }
+        public DbSet<HealthGoal> HealthGoals { get; set; }
     }
 }

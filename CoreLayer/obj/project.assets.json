@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthApp\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

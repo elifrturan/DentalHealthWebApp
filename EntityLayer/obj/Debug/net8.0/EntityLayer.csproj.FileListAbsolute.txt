@@ -10,3 +10,15 @@ C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthApp\EntityLayer\obj\Debug\net8
 C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthApp\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
 C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthApp\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
 C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthApp\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll

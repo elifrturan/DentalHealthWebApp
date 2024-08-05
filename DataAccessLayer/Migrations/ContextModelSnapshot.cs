@@ -22,6 +22,43 @@ namespace DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("EntityLayer.Concrete.HealthGoal", b =>
+                {
+                    b.Property<int>("GoalID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GoalID"));
+
+                    b.Property<DateTime>("GoalCreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("GoalDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GoalPeriod")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GoalPriority")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GoalTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("GoalID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("HealthGoals");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.PasswordReset", b =>
                 {
                     b.Property<int>("ResetID")
@@ -116,6 +153,17 @@ namespace DataAccessLayer.Migrations
                     b.HasIndex("UserID");
 
                     b.ToTable("UserSessions");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.HealthGoal", b =>
+                {
+                    b.HasOne("EntityLayer.Concrete.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.PasswordReset", b =>
