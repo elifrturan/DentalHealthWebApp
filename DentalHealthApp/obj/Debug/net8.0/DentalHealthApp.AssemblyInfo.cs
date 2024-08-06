@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DentalHealthApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc95aae5c285792f43b874f4e151978164693ca8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e752defbb69a61e364f7da25fba35f4d6d0e52ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("DentalHealthApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DentalHealthApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
