@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/Start/HomeLayout.cshtml";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
 }
 
 
@@ -19,7 +19,7 @@
     <h1>Hoş Geldiniz, @Model.UserName!</h1>
     <br />
 
-    <h4>Son 7 Gün İçindeki Verileriniz</h4><hr/>
+    <h4>Son 7 Gün İçindeki Verileriniz</h4><hr />
     @if (Model.LastWeekHealthRecords == null || !Model.LastWeekHealthRecords.Any())
     {
         <p>Son 7 gün içerisinde hiç veri kaydetmediniz.</p>
@@ -55,7 +55,7 @@
             </tbody>
         </table>
     }
-    
+
     <hr />
     <br />
     <div>
@@ -75,6 +75,6 @@
         </div>
     </div>
 </div>
-    
-    
+
+
 </div>

@@ -58,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3dvcmRSZXNldFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,12 +70,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Shared/Start/HomeLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN0YXJ0XEhvbWVMYXlvdXQuY3NodG1s
+[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Shared/HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Shared/Start/StartingLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN0YXJ0XFN0YXJ0aW5nTGF5b3V0LmNzaHRtbA==
+[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Shared/StartingLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN0YXJ0aW5nTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Shared/_ValidationScriptsPartial.cshtml]

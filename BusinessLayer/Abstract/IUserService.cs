@@ -10,5 +10,7 @@ namespace BusinessLayer.Abstract
     public interface IUserService : IGenericService<User>
     {
         Task<User> GetByEmailAsync(string email);
+        User GetById(int id);
+        Task UpdateAsync(User user);
     }
 }

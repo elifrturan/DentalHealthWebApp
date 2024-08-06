@@ -10,5 +10,7 @@ namespace DataAccessLayer.Abstract
     public interface IUserDal : IGenericDal<User>
     {
         Task<User> GetByEmailAsync(string email);
+        User GetById(int id);
+        Task UpdateAsync(User user);
     }
 }

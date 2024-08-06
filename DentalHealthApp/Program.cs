@@ -30,12 +30,11 @@ builder.Services.AddDbContext<Context>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
-    {
-        options.LoginPath = "/Login/Index"; // Redirect to login page if not authenticated
-        options.LogoutPath = "/Logout"; // Path to handle logout
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Session timeout
-    });
+            .AddCookie(options =>
+            {
+                options.LoginPath = "/Login/Index";
+                options.LogoutPath = "/Logout/Index";
+            });
 
 var app = builder.Build();
 
@@ -51,7 +50,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

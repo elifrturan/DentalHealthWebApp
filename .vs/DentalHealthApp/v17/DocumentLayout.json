@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\views\\home\\sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\views\\home\\sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\views\\shared\\start\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\views\\shared\\start\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\wwwroot\\tema\\pages\\tables\\basic-table.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\wwwroot\\tema\\pages\\tables\\basic-table.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|c:\\users\\asus\\desktop\\dentalhealthapp\\dentalhealthwebapp\\dentalhealthapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E01D0BB-8497-4353-8E9A-5D7F8384C80B}|DentalHealthApp\\DentalHealthApp.csproj|solutionrelative:dentalhealthapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SidebarPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Home\\SidebarPartial.cshtml",
-              "RelativeDocumentMoniker": "DentalHealthApp\\Views\\Home\\SidebarPartial.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Home\\SidebarPartial.cshtml",
-              "RelativeToolTip": "DentalHealthApp\\Views\\Home\\SidebarPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T19:36:21.63Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
@@ -63,67 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "basic-table.html",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\tema\\pages\\tables\\basic-table.html",
-              "RelativeDocumentMoniker": "DentalHealthApp\\wwwroot\\tema\\pages\\tables\\basic-table.html",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\tema\\pages\\tables\\basic-table.html",
-              "RelativeToolTip": "DentalHealthApp\\wwwroot\\tema\\pages\\tables\\basic-table.html",
-              "ViewState": "AQIAANICAAAAAAAAAAAAAAgAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-05T18:49:27.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Models\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "DentalHealthApp\\Models\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Models\\HomeViewModel.cs",
-              "RelativeToolTip": "DentalHealthApp\\Models\\HomeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:15:39.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DentalHealthApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DentalHealthApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T12:52:25.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Shared\\Start\\HomeLayout.cshtml",
-              "RelativeDocumentMoniker": "DentalHealthApp\\Views\\Shared\\Start\\HomeLayout.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Shared\\Start\\HomeLayout.cshtml",
-              "RelativeToolTip": "DentalHealthApp\\Views\\Shared\\Start\\HomeLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "DentalHealthApp\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "DentalHealthApp\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T12:38:30.745Z",
+              "WhenOpened": "2024-08-06T14:55:04.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DentalHealthApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DentalHealthApp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwBYAAABFAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Program.cs",
+              "RelativeDocumentMoniker": "DentalHealthApp\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Program.cs",
+              "RelativeToolTip": "DentalHealthApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T12:37:24.282Z",
+              "WhenOpened": "2024-08-06T10:15:32.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "DentalHealthApp\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "DentalHealthApp\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:39:02.59Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,54 @@
+﻿@model DentalHealthApp.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Profil";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+
+<form asp-action="Index" method="post">
+    <div class="form-group">
+        <label asp-for="User.UserFullName"></label>
+        <input asp-for="User.UserFullName" class="form-control" />
+        @if (ViewData.ModelState.ContainsKey("User.UserFullName"))
+        {
+            <span class="text-danger">@ViewData.ModelState["User.UserFullName"].Errors.FirstOrDefault()?.ErrorMessage</span>
+        }
+    </div>
+    <div class="form-group">
+        <label asp-for="User.UserEmail"></label>
+        <input asp-for="User.UserEmail" class="form-control" />
+        @if (ViewData.ModelState.ContainsKey("User.UserEmail"))
+        {
+            <span class="text-danger">@ViewData.ModelState["User.UserEmail"].Errors.FirstOrDefault()?.ErrorMessage</span>
+        }
+    </div>
+    <div class="form-group">
+        <label>Yeni Şifre</label>
+        <input type="password" name="NewPassword" class="form-control" />
+        @if (ViewData.ModelState.ContainsKey("NewPassword"))
+        {
+            <span class="text-danger">@ViewData.ModelState["NewPassword"].Errors.FirstOrDefault()?.ErrorMessage</span>
+        }
+    </div>
+    <div class="form-group">
+        <label>Yeni Şifre (Tekrar)</label>
+        <input type="password" name="ConfirmPassword" class="form-control" />
+        @if (ViewData.ModelState.ContainsKey("ConfirmPassword"))
+        {
+            <span class="text-danger">@ViewData.ModelState["ConfirmPassword"].Errors.FirstOrDefault()?.ErrorMessage</span>
+        }
+    </div>
+    <div class="form-group">
+        <label asp-for="User.UserBirthDate"></label>
+        <input asp-for="User.UserBirthDate" class="form-control" type="date" />
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+</form>

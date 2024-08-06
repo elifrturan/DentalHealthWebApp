@@ -19,7 +19,7 @@ namespace DentalHealthApp.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var userEmail = User.Identity.Name; // Kullanýcý email adresi
+            var userEmail = User.Identity.Name;
             var user = await _userService.GetByEmailAsync(userEmail);
 
             if (user == null)

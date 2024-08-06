@@ -38,9 +38,19 @@ namespace BusinessLayer.Concrete
             return _userDal.GetByEmailAsync(email);
         }
 
+        public User GetById(int id)
+        {
+            return _userDal.GetById(id);
+        }
+
         public void Update(User entity)
         {
            _userDal.Update(entity);
+        }
+
+        public Task UpdateAsync(User user)
+        {
+            return _userDal.UpdateAsync(user);
         }
     }
 }
