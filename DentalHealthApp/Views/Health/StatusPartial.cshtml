@@ -1,0 +1,185 @@
+﻿@model DentalHealthApp.Models.HomeViewModel
+
+<div class="container">
+   <br />
+   <br />
+    <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <h4>Son 7 Gün İçindeki Verileriniz</h4>
+        </div>
+        <div class="dropdown custom-dropdown">
+            <a href="#" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Notlar</a>
+            <ul class="dropdown-menu custom-dropdown-menu">
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#addNoteModal">Not Ekle</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#notesListModal">Notlarım</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- User Last 7 Days Data -->
+    @if (Model.LastWeekHealthGoals == null || !Model.LastWeekHealthGoals.Any())
+    {
+        <p>Son 7 gün içerisinde hiç hedef verisi oluşturmadınız.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Başlık</th>
+                    <th>Açıklama</th>
+                    <th>Periyot</th>
+                    <th>Önem Derecesi</th>
+                    <th>Tarih</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var goal in Model.LastWeekHealthGoals)
+                {
+                    <tr>
+                        <td>@goal.GoalTitle</td>
+                        <td>@goal.GoalDescription</td>
+                        <td>@goal.GoalPeriod</td>
+                        <td>@goal.GoalPriority</td>
+                        <td>@goal.GoalCreateDate.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <!-- Adding Notes Modal -->
+    <div class="modal fade" id="addNoteModal" tabindex="-1" aria-labelledby="addNoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addNoteModalLabel">Not Ekle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form asp-action="AddNote" method="post" enctype="multipart/form-data">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="noteTitle" class="form-label">Başlık</label>
+                            <input type="text" class="form-control" id="noteTitle" name="NoteTitle" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="noteDescription" class="form-label">Açıklama</label>
+                            <textarea class="form-control" id="noteDescription" name="NoteDescription" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="noteImage" class="form-label">Görsel</label>
+                            <input type="file" class="form-control" id="noteImage" name="NoteImage" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Notes Modal -->
+    <div class="modal fade" id="notesListModal" tabindex="-1" aria-labelledby="notesListModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="notesListModalLabel">Notlarım</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        @foreach (var note in Model.Notes)
+                        {
+                            <a href="#" onclick="document.getElementById('noteDetailsFrame').src='@Url.Action("NoteDetails", "Health", new { noteId = note.NoteID })'; $('#noteDetailsModal').modal('show'); return false;" class="note-link">
+                                @note.NoteTitle
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Note Details -->
+    <div class="modal fade" id="noteDetailsModal" tabindex="-1" role="dialog" aria-labelledby="noteDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="noteDetailsModalLabel">Not Detayları</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="noteDetailsFrame" src="" style="width: 100%; border: none;" height="400"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <br />
+
+    <!-- Random Recommendation Section -->
+    <div>
+       <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-heart-pulse"></i>
+            </span> Tavsiye <i class="mdi mdi-emoticon-happy"></i>
+        </h3>
+    </div>
+    <br />
+
+    <div class="border border-primary p-2 rounded">
+        <div class="d-flex flex-column p-2">
+            <div>
+                <h4 class="font-weight-normal p-3 bg-opacity-10">@Model.RandomRecommendation.RecommendationText <i class="mdi mdi-emoticon-happy"></i> </h4>
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <!-- Update Data Section -->
+
+    <h4>Kayıtlı Hedeflerinizi Güncelleyin</h4>
+    <hr />
+    <form asp-action="UpdateHealthRecord" method="post">
+        <div class="form-group">
+            <label for="recordSelect">Güncellemek İstediğiniz Hedef Kaydınızı Seçiniz:</label>
+            <select class="form-control" id="recordSelect" name="SelectedRecordId">
+                @foreach (var record in Model.HealthRecords)
+                {
+                    <option value="@record.RecordID">@record.RecordDescription</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="recordDate">Kayıt Tarihi:</label>
+            <input type="date" class="form-control" id="recordDate" name="RecordDate"/>
+        </div>
+        <div class="form-group">
+            <label for="recordDuration">Süre: </label>
+            <div class="d-flex">
+                <input type="number" class="form-control" id="recordDuration" name="RecordDuration" />
+                <select class="form-control ms-2" id="durationType" name="DurationType">
+                    <option value="gün">Saat</option>
+                    <option value="gün">Gün</option>
+                    <option value="ay">Ay</option>
+                    <option value="yıl">Yıl</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="isApplied">Uygulandı:</label>
+            <select class="form-control" id="isApplied" name="IsApplied">
+                <option value="true">Evet</option>
+                <option value="false">Hayır</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </form>
+</div>
+

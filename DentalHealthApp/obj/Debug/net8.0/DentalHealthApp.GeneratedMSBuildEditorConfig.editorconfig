@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\DentalHealthApp\DentalHealthWebApp\DentalHealthApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Health/GoalPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXEdvYWxQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Health/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Health/NoteDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXE5vdGVEZXRhaWxzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Health/StatusPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFN0YXR1c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ASUS/Desktop/DentalHealthApp/DentalHealthWebApp/DentalHealthApp/Views/Home/FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,16 @@
+﻿@model DentalHealthApp.Models.HomeViewModel
+
+<div>
+    <h2>@Model.NoteTitle</h2>
+    <h4>@Model.NoteDescription</h4>
+    <br />
+
+    @if (!string.IsNullOrEmpty(Model.NoteImage))
+    {
+        <img src="@Model.NoteImage" alt="Note Image" class="img-fluid" />
+    }
+    else
+    {
+        
+    }
+</div>

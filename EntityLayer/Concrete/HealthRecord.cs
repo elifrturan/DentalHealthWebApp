@@ -14,6 +14,8 @@ namespace EntityLayer.Concrete
         public string RecordDescription { get; set; }
         public string RecordImage { get; set; }
         public DateTime RecordDate { get; set; }
+        public string RecordDuration { get; set; }
+        public bool IsApplied { get; set; }
 
         public int GoalID { get; set; }
         public HealthGoal Goal { get; set; }

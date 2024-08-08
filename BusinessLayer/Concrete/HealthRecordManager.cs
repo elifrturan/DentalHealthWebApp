@@ -33,6 +33,21 @@ namespace BusinessLayer.Concrete
             return _healthrecordDal.GetAll();
         }
 
+        public Task<List<HealthRecord>> GetAllByUserIdAsync(int userId)
+        {
+            return _healthrecordDal.GetAllByUserIdAsync(userId);
+        }
+
+        public async Task<HealthRecord> GetAsync(int id)
+        {
+            return await _healthrecordDal.GetAsync(id);
+        }
+
+        public Task<HealthRecord> GetByIdAsync(int recordId)
+        {
+            return _healthrecordDal.GetAsync(recordId);
+        }
+
         public Task<List<HealthRecord>> GetHealthRecordsForLast7DaysAsync(int userId)
         {
             return _healthrecordDal.GetHealthRecordsForLast7DaysAsync(userId);
@@ -41,6 +56,11 @@ namespace BusinessLayer.Concrete
         public void Update(HealthRecord entity)
         {
             _healthrecordDal.Update(entity);
+        }
+
+        public async Task UpdateAsync(HealthRecord entity)
+        {
+            await _healthrecordDal.UpdateAsync(entity);   
         }
     }
 }

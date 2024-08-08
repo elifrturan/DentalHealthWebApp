@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SkREyN2j074UP9KtfKocwWE/OK+XfnKBzxMJ3kHJlVE=",
+  "Hash": "6fQPOIgsegNdWdHGFbmGdR5JkoE/1xn3GeZroA1Faps=",
   "Source": "DentalHealthApp",
   "BasePath": "_content/DentalHealthApp",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pictures\\4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\pictures\\DentalHealthDb.png",
+      "SourceId": "DentalHealthApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\",
+      "BasePath": "_content/DentalHealthApp",
+      "RelativePath": "pictures/DentalHealthDb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\DentalHealthDb.png"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\tema\\.gitignore",

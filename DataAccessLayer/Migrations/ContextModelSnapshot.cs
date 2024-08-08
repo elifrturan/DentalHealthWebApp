@@ -70,10 +70,17 @@ namespace DataAccessLayer.Migrations
                     b.Property<int>("GoalID")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsApplied")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("RecordDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("RecordDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecordDuration")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -86,6 +93,38 @@ namespace DataAccessLayer.Migrations
                     b.HasIndex("GoalID");
 
                     b.ToTable("HealthRecords");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Note", b =>
+                {
+                    b.Property<int>("NoteID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NoteID"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NoteDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NoteImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NoteTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("NoteID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Notes");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.PasswordReset", b =>
@@ -250,6 +289,17 @@ namespace DataAccessLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Goal");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Note", b =>
+                {
+                    b.HasOne("EntityLayer.Concrete.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.PasswordReset", b =>

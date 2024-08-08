@@ -25,6 +25,8 @@ builder.Services.AddScoped<IRecommendationDal, EfRecommendationRepository>();
 builder.Services.AddScoped<IRecommendationService, RecommendationManager>();
 builder.Services.AddScoped<IUserRecommendationDal, EfUserRecommendationRepository>();
 builder.Services.AddScoped<IUserRecommendationService, UserRecommendationManager>();
+builder.Services.AddScoped<INoteDal, EfNoteRepository>();
+builder.Services.AddScoped<INoteService, NoteManager>();
 
 builder.Services.AddDbContext<Context>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
