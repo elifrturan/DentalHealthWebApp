@@ -14,5 +14,6 @@ namespace BusinessLayer.Abstract
         Task<HealthRecord> GetAsync(int id);
         Task UpdateAsync(HealthRecord entity);
         Task<List<HealthRecord>> GetAllByUserIdAsync(int userId);
+        Task AddAsync(HealthRecord healthRecord);
     }
 }

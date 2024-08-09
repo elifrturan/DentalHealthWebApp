@@ -12,8 +12,8 @@ namespace EntityLayer.Concrete
         [Key]
         public int RecordID { get; set; }
         public string RecordDescription { get; set; }
-        public string RecordImage { get; set; }
         public DateTime RecordDate { get; set; }
+        public DateTime RecordTime { get; set; }
         public string RecordDuration { get; set; }
         public bool IsApplied { get; set; }
 

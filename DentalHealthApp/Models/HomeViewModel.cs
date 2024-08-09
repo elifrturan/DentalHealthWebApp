@@ -18,5 +18,11 @@ namespace DentalHealthApp.Models
         public string NoteTitle { get; set; }
         public string NoteDescription { get; set; }
         public string NoteImage { get; set; }
+        public List<HealthGoal> HealthGoals { get; set; }
+        public int GoalID { get; set; }
+        public string RecordDescription { get; set; }
+        public DateTime RecordDate { get; set; }
+        public bool IsApplied { get; set; }
+
     }
 }

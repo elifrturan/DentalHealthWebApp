@@ -1,12 +1,22 @@
 ﻿@model DentalHealthApp.Models.HomeViewModel
 
 <div class="container">
-   <br />
-   <br />
+    <br />
+    <div class="mt-2">
+        <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-home"></i>
+            </span> Giriş
+        </h3>
+    </div>
+    <br />
+
     <div class="d-flex justify-content-between align-items-center">
         <div>
             <h4>Son 7 Gün İçindeki Verileriniz</h4>
         </div>
+
+        <!-- Notes Dropdown -->
         <div class="dropdown custom-dropdown">
             <a href="#" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Notlar</a>
             <ul class="dropdown-menu custom-dropdown-menu">
@@ -14,10 +24,7 @@
                 <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#notesListModal">Notlarım</a></li>
             </ul>
         </div>
-    </div>
-
-    <br />
-    <br />
+    </div><br />
 
     <!-- User Last 7 Days Data -->
     @if (Model.LastWeekHealthGoals == null || !Model.LastWeekHealthGoals.Any())
@@ -93,11 +100,14 @@
                 </div>
                 <div class="modal-body">
                     <div class="list-group">
-                        @foreach (var note in Model.Notes)
+                        @if (Model.Notes != null && Model.Notes.Any())
                         {
-                            <a href="#" onclick="document.getElementById('noteDetailsFrame').src='@Url.Action("NoteDetails", "Health", new { noteId = note.NoteID })'; $('#noteDetailsModal').modal('show'); return false;" class="note-link">
-                                @note.NoteTitle
-                            </a>
+                            @foreach (var note in Model.Notes)
+                            {
+                                <a href="#" onclick="document.getElementById('noteDetailsFrame').src='@Url.Action("NoteDetails", "Health", new { noteId = note.NoteID })'; $('#noteDetailsModal').modal('show'); return false;" class="note-link">
+                                    @note.NoteTitle
+                                </a>
+                            }
                         }
                     </div>
                 </div>
@@ -123,15 +133,16 @@
     <hr />
     <br />
 
-    <!-- Random Recommendation Section -->
     <div>
-       <h3 class="page-title">
+        <h3 class="page-title">
             <span class="page-title-icon bg-gradient-primary text-white mr-2">
-                <i class="mdi mdi-heart-pulse"></i>
-            </span> Tavsiye <i class="mdi mdi-emoticon-happy"></i>
+                <i class="mdi mdi-information"></i>
+            </span> Tavsiye 
         </h3>
     </div>
     <br />
+
+    <!-- Random Recommendation Section -->
 
     <div class="border border-primary p-2 rounded">
         <div class="d-flex flex-column p-2">
@@ -142,44 +153,52 @@
     </div>
     <br />
 
-    <!-- Update Data Section -->
+    <div class="mb-2">
+        <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-pen"></i>
+            </span> Veri Kayıt
+        </h3>
+    </div><br />
 
-    <h4>Kayıtlı Hedeflerinizi Güncelleyin</h4>
-    <hr />
-    <form asp-action="UpdateHealthRecord" method="post">
-        <div class="form-group">
-            <label for="recordSelect">Güncellemek İstediğiniz Hedef Kaydınızı Seçiniz:</label>
-            <select class="form-control" id="recordSelect" name="SelectedRecordId">
-                @foreach (var record in Model.HealthRecords)
+
+    <!-- Register Data Section -->
+    <form asp-action="CreateHealthRecord" method="post">
+        <div class="mb-3">
+            <label for="goalSelect" class="form-label">Hedef Seçin</label>
+            <select id="goalSelect" name="GoalID" class="form-select">
+                @foreach (var goal in Model.HealthGoals)
                 {
-                    <option value="@record.RecordID">@record.RecordDescription</option>
+                    <option value="@goal.GoalID">@goal.GoalTitle</option>
                 }
             </select>
         </div>
-        <div class="form-group">
-            <label for="recordDate">Kayıt Tarihi:</label>
-            <input type="date" class="form-control" id="recordDate" name="RecordDate"/>
+        <div class="mb-3">
+            <label for="description" class="form-label">Açıklama</label>
+            <textarea id="description" name="RecordDescription" class="form-control"></textarea>
         </div>
-        <div class="form-group">
+        <div class="mb-3">
             <label for="recordDuration">Süre: </label>
             <div class="d-flex">
                 <input type="number" class="form-control" id="recordDuration" name="RecordDuration" />
-                <select class="form-control ms-2" id="durationType" name="DurationType">
+                <select class="form-control ms-2" id="durationType" name="durationType">
                     <option value="gün">Saat</option>
                     <option value="gün">Gün</option>
                     <option value="ay">Ay</option>
                     <option value="yıl">Yıl</option>
                 </select>
             </div>
+
         </div>
-        <div class="form-group">
-            <label for="isApplied">Uygulandı:</label>
-            <select class="form-control" id="isApplied" name="IsApplied">
+        <div class="mb-3">
+            <label for="applied" class="form-label">Uygulandı mı?</label>
+            <select id="applied" name="IsApplied" class="form-select" required>
                 <option value="true">Evet</option>
                 <option value="false">Hayır</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Güncelle</button>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
     </form>
+
 </div>
 

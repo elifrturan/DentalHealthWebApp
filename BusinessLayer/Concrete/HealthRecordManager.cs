@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class HealthRecordManager : IHealthRecordService
+    public class HealthRecordManager : IHealthRecordService  
     {
         IHealthRecordDal _healthrecordDal;
 
@@ -21,6 +21,11 @@ namespace BusinessLayer.Concrete
         public void Add(HealthRecord entity)
         {
             _healthrecordDal.Insert(entity);
+        }
+
+        public Task AddAsync(HealthRecord healthRecord)
+        {
+            return _healthrecordDal.AddAsync(healthRecord);
         }
 
         public void Delete(HealthRecord entity)

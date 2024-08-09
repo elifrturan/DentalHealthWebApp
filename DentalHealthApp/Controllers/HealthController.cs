@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Abstract;
 using DentalHealthApp.Models;
 using EntityLayer.Concrete;
+using Humanizer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -36,8 +37,9 @@ namespace DentalHealthApp.Controllers
 
             var lastWeekHealthGoals = await _healthGoalService.GetHealthGoalsForLast7DaysAsync(user.UserID);
             var recommendation = await _recommendationService.GetRandomRecommendationAsync();
-             var healthRecords = await _healthRecordService.GetAllByUserIdAsync(user.UserID);
+            var healthRecords = await _healthRecordService.GetAllByUserIdAsync(user.UserID);
             var notes = await _noteService.GetAllByUserIdAsync(user.UserID);
+            var healthGoals = await _healthGoalService.GetAllByUserIdAsync(user.UserID);
 
             var model = new HomeViewModel
             {
@@ -47,39 +49,37 @@ namespace DentalHealthApp.Controllers
                 HealthRecords = healthRecords,
                 Notes = notes,
                 NewNote = new Note(),
+                HealthGoals = healthGoals,
             };
 
             return View(model);
         }
 
         [HttpPost]
-        public async Task<IActionResult> UpdateHealthRecord(int SelectedRecordId, DateTime? RecordDate, int? RecordDuration, string DurationType, bool? IsApplied)
+        public async Task<IActionResult> CreateHealthRecord(HomeViewModel model, int? RecordDuration, string durationType)
         {
-            var healthRecord = await _healthRecordService.GetAsync(SelectedRecordId);
+            var userEmail = User.Identity.Name;
+            var user = await _userService.GetByEmailAsync(userEmail);
 
-            if (healthRecord == null)
+            if (user == null)
             {
-                return NotFound();
+                return RedirectToAction("Index", "Login");
             }
 
-            if (RecordDate.HasValue)
+            DateTime recordDateTime = DateTime.Today.Add(DateTime.Now.TimeOfDay);
+
+            var healthRecord = new HealthRecord
             {
-                healthRecord.RecordDate = RecordDate.Value;
-            }
+                GoalID = model.GoalID,
+                RecordDescription = model.RecordDescription,
+                RecordDate = DateTime.Now,
+                RecordDuration = $"{RecordDuration.Value} {durationType}",
+                IsApplied = model.IsApplied,
+                RecordTime = recordDateTime
+            };
 
-            if (RecordDuration.HasValue && !string.IsNullOrEmpty(DurationType))
-            {
-                healthRecord.RecordDuration = $"{RecordDuration.Value} {DurationType}";
-            }
-
-            if (IsApplied.HasValue)
-            {
-                healthRecord.IsApplied = IsApplied.Value;
-            }
-
-            await _healthRecordService.UpdateAsync(healthRecord);
-
-            return View("Index");
+            _healthRecordService.AddAsync(healthRecord);
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -159,12 +159,74 @@ namespace DentalHealthApp.Controllers
 
         public PartialViewResult StatusPartial()
         {
-            return PartialView();
+            var userId = int.Parse(User.Identity.Name);
+            var healthGoals = _healthGoalService.GetAllGoalsByUserId(userId);
+
+            return PartialView("StatusPartial", healthGoals);
         }
 
-        public PartialViewResult GoalPartial()
+        public async Task<PartialViewResult> GoalPartial()
         {
-            return PartialView();
+            var userEmail = User.Identity.Name;
+            var user = await _userService.GetByEmailAsync(userEmail);
+
+            if (user == null)
+            {
+                return PartialView("_ErrorPartial");
+            }
+
+            var userGoals = await _healthGoalService.GetAllByUserIdAsync(user.UserID);
+
+            return PartialView(userGoals);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddHealthGoal(string goalTitle, string goalDescription, string goalPeriod, string goalPriority)
+        {
+            var userEmail = User.Identity.Name;
+            var user = await _userService.GetByEmailAsync(userEmail);
+
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            var goal = new HealthGoal
+            {
+                UserID = user.UserID,
+                GoalTitle = goalTitle,
+                GoalDescription = goalDescription,
+                GoalPeriod = goalPeriod,
+                GoalPriority = goalPriority,
+                GoalCreateDate = DateTime.Now
+            };
+
+            await _healthGoalService.AddAsync(goal);
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteHealthGoal(int goalId)
+        {
+            var userEmail = User.Identity.Name;
+            var user = await _userService.GetByEmailAsync(userEmail);
+
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            var goal = await _healthGoalService.GetByIdAsync(goalId);
+
+            if (goal == null || goal.UserID != user.UserID)
+            {
+                return Unauthorized();
+            }
+
+            await _healthGoalService.DeleteAsync(goalId);
+
+            return RedirectToAction("Index");
         }
 
     }

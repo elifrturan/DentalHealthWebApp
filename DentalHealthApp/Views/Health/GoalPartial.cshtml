@@ -1,1 +1,122 @@
-﻿<h1>Burası hedefler</h1>
+﻿@model DentalHealthApp.Models.HomeViewModel
+
+
+<div class="goal-section">
+    <br />
+    <div class="mt-2">
+        <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-heart-pulse"></i>
+            </span> Hedeflerim
+        </h3>
+    </div>
+    <br />
+
+    @if (Model != null && Model.HealthGoals.Any())
+    {
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Başlık</th>
+                    <th>Açıklama</th>
+                    <th>Öncelik</th>
+                    <th>Periyot</th>
+                    <th>Oluşturulma Tarihi</th>
+                    <th>Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var goal in Model.HealthGoals)
+                {
+                    <tr>
+                        <td>@goal.GoalTitle</td>
+                        <td>@goal.GoalDescription</td>
+                        <td>@goal.GoalPriority</td>
+                        <td>@goal.GoalPeriod</td>
+                        <td>@goal.GoalCreateDate.ToShortDateString()</td>
+                        <td>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" data-goal-id="@goal.GoalID">
+                                Sil
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Henüz bir hedef kaydetmediniz.</p>
+    }
+
+    <!-- Delete Modal -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Hedefi Sil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                </div>
+                <div class="modal-body">
+                    Bu hedefi silmek istediğinize emin misiniz?
+                </div>
+                <div class="modal-footer">
+                    <form asp-action="DeleteHealthGoal" method="post">
+                        <input type="hidden" id="goalIdToDelete" name="goalId" />
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                        <button type="submit" class="btn btn-danger">Sil</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br />
+
+    <hr />
+
+    <div class="mt-2">
+        <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-pen"></i>
+            </span> Yeni Hedef Ekle
+        </h3>
+    </div>
+    <br />
+
+    <!-- Add Goal Form -->
+    <form asp-action="AddHealthGoal" method="post">
+        <div class="mb-3">
+            <label for="GoalTitle" class="form-label">Başlık</label>
+            <input type="text" class="form-control" id="GoalTitle" name="goalTitle" required />
+        </div>
+        <div class="mb-3">
+            <label for="GoalDescription" class="form-label">Açıklama</label>
+            <textarea class="form-control" id="GoalDescription" name="goalDescription" rows="3" required></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="GoalPeriod" class="form-label">Periyot <i>Ör: Günde 3 kere, Ayda bir kere...</i></label>
+            <input type="text" class="form-control" id="GoalPeriod" name="goalPeriod" required />
+        </div>
+        <div class="mb-3">
+            <label for="GoalPriority" class="form-label">Önem Derecesi</label>
+            <select class="form-select" id="GoalPriority" name="goalPriority" required>
+                <option value="" disabled selected>Seçiniz</option>
+                <option value="Düşük">Düşük</option>
+                <option value="Orta">Orta</option>
+                <option value="Yüksek">Yüksek</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+</div>
+
+<script>
+    var deleteModal = document.getElementById('deleteModal');
+    deleteModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var goalId = button.getAttribute('data-goal-id');
+        var goalIdInput = document.getElementById('goalIdToDelete');
+        goalIdInput.value = goalId;
+    });
+</script>

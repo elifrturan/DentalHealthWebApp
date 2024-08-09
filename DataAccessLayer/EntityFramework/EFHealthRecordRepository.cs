@@ -21,6 +21,12 @@ namespace DataAccessLayer.EntityFramework
             _context = context;
         }
 
+        public async Task AddAsync(HealthRecord healthRecord)
+        {
+            _context.HealthRecords.Add(healthRecord);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<List<HealthRecord>> GetAllByUserIdAsync(int userId)
         {
             return await _context.HealthRecords
@@ -52,7 +58,6 @@ namespace DataAccessLayer.EntityFramework
             if (existingRecord != null)
             {
                 existingRecord.RecordDescription = entity.RecordDescription;
-                existingRecord.RecordImage = entity.RecordImage;
                 existingRecord.RecordDate = entity.RecordDate;
                 existingRecord.IsApplied = entity.IsApplied;
                 existingRecord.RecordDuration = entity.RecordDuration;
