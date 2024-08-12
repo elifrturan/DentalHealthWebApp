@@ -2,12 +2,12 @@
 
 <div>
     <h2>@Model.NoteTitle</h2>
-    <h3>@Model.NoteDescription</h3>
+    <p style="font-size: 18px;">@Model.NoteDescription</p>
     <br />
 
     @if (!string.IsNullOrEmpty(Model.NoteImage))
     {
-        <img src="@Model.NoteImage" alt="Note Image" class="img-fluid" />
+        <img src="@Model.NoteImage" alt="Note Image" class="img-fluid" style="width: 200px; height: 200px;" />
     }
     else
     {

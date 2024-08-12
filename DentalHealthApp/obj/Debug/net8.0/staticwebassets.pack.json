@@ -261,10 +261,6 @@
       "PackagePath": "staticwebassets\\pictures\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\pictures\\DentalHealthDb.png",
-      "PackagePath": "staticwebassets\\pictures\\DentalHealthDb.png"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Desktop\\DentalHealthApp\\DentalHealthWebApp\\DentalHealthApp\\wwwroot\\tema\\.gitignore",
       "PackagePath": "staticwebassets\\tema\\.gitignore"
     },
