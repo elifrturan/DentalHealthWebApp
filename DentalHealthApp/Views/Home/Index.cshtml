@@ -9,6 +9,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <div class="container">
+    <br />
+    <h1>Hoş Geldiniz, @Model.UserName</h1>
+    <br />
     <div>
         <h3 class="page-title">
             <span class="page-title-icon bg-gradient-primary text-white mr-2">
@@ -17,10 +20,6 @@
         </h3>
     </div>
     <br />
-
-    <h1>Hoş Geldiniz, @Model.UserName!</h1>
-    <br />
-
     <h4>Son 7 Gün İçindeki Verileriniz</h4><hr />
     @if (Model.LastWeekHealthRecords == null || !Model.LastWeekHealthRecords.Any())
     {
@@ -28,36 +27,39 @@
     }
     else
     {
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Tarih</th>
-                    <th>Saat</th>
-                    <th>Açıklama</th>
-                    <th>Uygulanma Durumu</th>
-                    <th>Süresi</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var record in Model.LastWeekHealthRecords)
-                {
+        <div style="overflow-x: auto; max-height: 400px; overflow-y: auto;">
+            <table class="table table-striped">
+                <thead>
                     <tr>
-                        <td>@record.RecordDate.ToString("dd/MM/yyyy")</td>
-                        <td>@record.RecordTime.ToString("hh:mm tt")</td>
-                        <td>@record.RecordDescription</td>
-                        @if (record.IsApplied == true)
-                        {
-                            <td>Uygulandı</td>
-                        }
-                        else
-                        {
-                            <td>Uygulanmadı</td>
-                        }
-                        <td>@record.RecordDuration</td>
+                        <th>Tarih</th>
+                        <th>Saat</th>
+                        <th>Açıklama</th>
+                        <th>Uygulanma Durumu</th>
+                        <th>Süresi</th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach (var record in Model.LastWeekHealthRecords)
+                    {
+                        <tr>
+                            <td>@record.RecordDate.ToString("dd/MM/yyyy")</td>
+                            <td>@record.RecordTime.ToString("hh:mm tt")</td>
+                            <td style="max-width: 200px; overflow-x: auto;">@record.RecordDescription</td>
+                            @if (record.IsApplied == true)
+                            {
+                                <td>Uygulandı</td>
+                            }
+                            else
+                            {
+                                <td>Uygulanmadı</td>
+                            }
+                            <td>@record.RecordDuration</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
     }
 
     <hr />

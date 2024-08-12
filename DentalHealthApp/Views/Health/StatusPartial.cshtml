@@ -33,29 +33,32 @@
     }
     else
     {
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Başlık</th>
-                    <th>Açıklama</th>
-                    <th>Periyot</th>
-                    <th>Önem Derecesi</th>
-                    <th>Tarih</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var goal in Model.LastWeekHealthGoals)
-                {
+        <div style="overflow-x: auto; max-height: 400px; overflow-y: auto;">
+            <table class="table table-striped">
+                <thead>
                     <tr>
-                        <td>@goal.GoalTitle</td>
-                        <td>@goal.GoalDescription</td>
-                        <td>@goal.GoalPeriod</td>
-                        <td>@goal.GoalPriority</td>
-                        <td>@goal.GoalCreateDate.ToString("dd/MM/yyyy")</td>
+                        <th>Başlık</th>
+                        <th>Açıklama</th>
+                        <th>Periyot</th>
+                        <th>Önem Derecesi</th>
+                        <th>Tarih</th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach (var goal in Model.LastWeekHealthGoals)
+                    {
+                        <tr>
+                            <td>@goal.GoalTitle</td>
+                            <td style="max-width: 200px; overflow-x: auto;">@goal.GoalDescription</td>
+                            <td>@goal.GoalPeriod</td>
+                            <td>@goal.GoalPriority</td>
+                            <td>@goal.GoalCreateDate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
     }
 
     <!-- Adding Notes Modal -->
@@ -182,7 +185,8 @@
             <div class="d-flex">
                 <input type="number" class="form-control" id="recordDuration" name="RecordDuration" />
                 <select class="form-control ms-2" id="durationType" name="durationType">
-                    <option value="gün">Saat</option>
+                    <option value="dakika">Dakika</option>
+                    <option value="saat">Saat</option>
                     <option value="gün">Gün</option>
                     <option value="ay">Ay</option>
                     <option value="yıl">Yıl</option>

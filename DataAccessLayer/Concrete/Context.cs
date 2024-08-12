@@ -34,7 +34,6 @@ namespace DataAccessLayer.Concrete
         public DbSet<HealthGoal> HealthGoals { get; set; }
         public DbSet<HealthRecord> HealthRecords { get; set; }
         public DbSet<Recommendation> Recommendations { get; set; }
-        public DbSet<UserRecommendation> UserRecommendations { get; set; }
         public DbSet<Note> Notes { get; set; }
 
     }

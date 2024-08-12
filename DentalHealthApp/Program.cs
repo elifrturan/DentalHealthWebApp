@@ -23,8 +23,6 @@ builder.Services.AddScoped<IHealthRecordDal, EFHealthRecordRepository>();
 builder.Services.AddScoped<IHealthRecordService, HealthRecordManager>();
 builder.Services.AddScoped<IRecommendationDal, EfRecommendationRepository>();
 builder.Services.AddScoped<IRecommendationService, RecommendationManager>();
-builder.Services.AddScoped<IUserRecommendationDal, EfUserRecommendationRepository>();
-builder.Services.AddScoped<IUserRecommendationService, UserRecommendationManager>();
 builder.Services.AddScoped<INoteDal, EfNoteRepository>();
 builder.Services.AddScoped<INoteService, NoteManager>();
 
@@ -38,7 +36,16 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
                 options.LogoutPath = "/Logout/Index";
             });
 
+builder.Services.AddSingleton(new MailService(
+       smtpServer: "smtp.gmail.com",
+       smtpPort: 587,
+       smtpUsername: "dentalhealthexample@gmail.com",
+       smtpPassword: "qxlb yhii xuhz lddz"
+   ));
+
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

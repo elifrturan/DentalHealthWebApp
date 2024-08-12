@@ -11,11 +11,14 @@ namespace DentalHealthApp.Controllers
     {
         private readonly IUserDal _userDal;
         private readonly IUserService _userService;
+        private readonly MailService _mailService;
 
-        public RegisterController(IUserDal userDal, IUserService userService)
+
+        public RegisterController(IUserDal userDal, IUserService userService, MailService mailService)
         {
             _userDal = userDal;
             _userService = userService;
+            _mailService = mailService;
         }
 
         [HttpGet]
@@ -25,7 +28,7 @@ namespace DentalHealthApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(User user, string password, string confirmPassword)
+        public async Task<IActionResult> Index(User user, string password, string confirmPassword)
         {
             // Validasyon
             if (!RegisterRules.AreRequiredFieldsNotEmpty(user.UserFullName, user.UserEmail, password, user.UserBirthDate))
@@ -58,15 +61,20 @@ namespace DentalHealthApp.Controllers
                 return View();
             }
 
-            // Kullanıcıyı ekle
             user.AccountCreateDate = DateTime.Now;
             user.AccountUpdateDate = DateTime.Now;
             user.UserPassword = EncryptPassword(password);
             _userService.Add(user);
 
-           
+            string subject = "Kaydınız Başarılı";
+            string body = $"Ağız ve Diş Sağlığı Takip Uygulamasına Hoş Geldiniz! \n" +
+                $"Sizi aramızda görmekten mutluluk duyuyoruz! :)\n" +
+                $"Sağlıklı gülüşler dileriz...";
 
-            return RedirectToAction("Index", "User");
+            await _mailService.SendEmailAsync(user.UserEmail, subject, body);
+
+            TempData["SuccessMessage"] = "Kayıt başarıyla oluştu. Giriş yapmak için giriş yap ekranına gidin.";
+            return RedirectToAction("Index", "Register");
         }
 
 
