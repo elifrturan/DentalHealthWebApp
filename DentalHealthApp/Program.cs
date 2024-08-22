@@ -39,8 +39,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddSingleton(new MailService(
        smtpServer: "smtp.gmail.com",
        smtpPort: 587,
-       smtpUsername: "dentalhealthexample@gmail.com",
-       smtpPassword: "qxlb yhii xuhz lddz"
+       smtpUsername: "healthexample@gmail.com",
+       smtpPassword: "12345a"
    ));
 
 
