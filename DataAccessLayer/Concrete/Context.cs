@@ -24,7 +24,7 @@ namespace DataAccessLayer.Concrete
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("server=LAPTOP-O8V5QSSE\\MSSQLSERVER01;database=DentalHealthDb;integrated security=true;TrustServerCertificate=true");
+                optionsBuilder.UseSqlServer("server=LAPTOP\\MSSQLSERVER01;database=DentalHealthDb;integrated security=true;TrustServerCertificate=true");
             }
         }
 
